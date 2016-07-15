@@ -7,13 +7,13 @@ from PIL import Image
 import cPickle as pickle
 cuda.init()
 
-parentpath= '/home/koyama-m/Research/membrane_CNN/'
-models_path='/home/koyama-m/Research/membrane_CNN/models/'
+parent_path= '/home/koyama-m/Research/membrane_CNN/'
+models_path = parent_path + 'models/'
 
 sys.path.append(parentpath)
 sys.path.append(models_path)
 
-reconstruction_path = '/home/koyama-m/Research/membrane_CNN/data/reconstructed_256images_crop15'
+reconstruction_path = parent_path + 'data/reconstructed_256images_crop15'
 probmap_prefix = 'multi_crop_prediction_image_256_'
 binmap_prefix = 'multi_crop_prediction_binary_image_256_'
 
