@@ -6,6 +6,8 @@ The contextual information is interpreted as intra-object configurations and int
 The pixel-level classification is the problem of assigning an object label to each pixels. There have been many methods that employ context for solving vision problems such as image segmentation. This work proposes new pixel-level classification model which uses two convolutional neural networks and gibbs sampling. 
 
 ![modelsetups](https://github.com/uchihashikenshi/gibbsCNN/blob/master/images/modelsetups)
+![modelsetups2](https://github.com/uchihashikenshi/gibbsCNN/blob/master/images/modelsetups2)
+![pseude_codes](https://github.com/uchihashikenshi/gibbsCNN/blob/master/images/pseude_codes)
 
 
 Pixel classification is the
